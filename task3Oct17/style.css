@@ -1,0 +1,268 @@
+.divforimage {
+  width: 840px;
+  height: 730px;
+  margin-left: 650px;
+  background-image: url("background.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+}
+
+.divforlogo {
+  width: 250px;
+  height: 200px;
+  margin-left: 75px;
+  top: 5px;
+  background-image: url("logo.JPG");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.divforform {
+  width: 300px;
+  height: 350px;
+  margin-left: 75px;
+  top: 150px;
+  position: absolute;
+}
+
+#textbox {
+  font-family: sans-serif;
+  width: 16em;
+  height: 2.5em;
+  font-size: 18px;
+  text-align: left;
+  color: #bfbfbf;
+  margin-top: 30px;
+  border-radius: 8px;
+  border: 1px solid #bfbfbf;
+  padding-left: 15px;
+}
+
+#textbox:hover {
+  border: 1px solid #00ff80;
+}
+
+#textbox::placeholder {
+  color: #999999;
+  text-align: left;
+}
+
+#button {
+  font-family: sans-serif;
+  margin-top: 30px;
+  width: 125px;
+  height: 38px;
+  font-size: 18px;
+  border-radius: 6px;
+  color: #bfbfbf;
+  background-color: white;
+  border: 1px solid #bfbfbf;
+}
+
+#button:hover {
+  background-color: #e6fff2;
+  border: 1px solid #00ff80;
+}
+
+#forgotpassword {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #00ff80;
+  font-family: sans-serif;
+}
+
+#forgotpassword:hover {
+  cursor: pointer;
+}
+
+#text {
+  font-family: sans-serif;
+  color: #999999;
+  font-size: 30px;
+}
+
+/* ````````````````styles for next page``````````````````````*/
+.div1 {
+  width: 350px;
+  height: 825px;
+  background-color: black;
+  position: absolute;
+}
+
+.divforfreshgradimg {
+  width: 350px;
+  height: 50px;
+}
+
+.navigation {
+  width: 350px;
+  top: 175px;
+  position: absolute;
+}
+
+.text_in_div1 {
+  font-size: 18px;
+  color: white;
+  font-family: sans-serif;
+  display: block;
+  text-decoration: none;
+  border-left: 2em width: 350px;
+  height: 50px;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+.text_in_div1:hover {
+  border-right: 3px solid #00ff00;
+  background-color: rgba(0, 255, 128, 0.3);
+  color: green;
+}
+
+.ddugky {
+  width: 350;
+  height: 100;
+  top: 100px;
+  margin-left: 125px;
+  position: absolute;
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+.div2 {
+  width: 1175px;
+  height: 800px;
+}
+
+.divfortop {
+  margin-left: 350px;
+  width: 1200px;
+  height: 8em;
+  padding-top: 3em;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+.top {
+  width: 6em;
+  height: 3em;
+  margin-left: 4em;
+  margin-right: 4em;
+  background-color: white;
+  border-radius: 1em;
+  border: 1px solid white;
+  font-family: sans-serif;
+}
+
+.Students {
+  background-color: #00e68a;
+  border: none;
+  color: white;
+}
+
+.admins {
+  background-color: white;
+  color: gray;
+}
+
+.Students:hover {
+  background-color: white;
+  color: gray;
+}
+
+.admins:hover {
+  background-color: #00e68a;
+  color: white;
+}
+
+.divfordropbox {
+  top: 3.5em;
+  width: 400px;
+  height: 3em;
+  margin-left: 1200px;
+  position: absolute;
+}
+
+.dropbox {
+  width: 9em;
+  height: 3em;
+  border: 1px solid white;
+  background-color: #00e68a;
+  margin-right: 5em;
+  color: white;
+}
+
+.divforquickaction {
+  margin-left: 400px;
+  width: 1200px;
+  margin-top: 2em;
+}
+
+.buttons {
+  width: 23em;
+  height: 3em;
+  margin-right: 5.1em;
+  background-color: white;
+  border: 2px solid #e6e6e6;
+  border-radius: 6px;
+  color: gray;
+  font-family: sans-serif;
+}
+
+.divforshow {
+  width: 200px;
+  margin-top: 2em;
+  margin-left: 1400px;
+  color: gray;
+  font-family: sans-serif;
+}
+
+#search {
+  top: 17em;
+  border: 2px solid #f2f2f2;
+  color: gray;
+  font-family: sans-serif;
+  border-radius: 6px;
+  width: 15em;
+  height: 2.5em;
+  position: absolute;
+  margin-left: 400px;
+}
+
+#quick {
+  font-size: 1.5em;
+  font-family: sans-serif;
+}
+
+.divfortable {
+  margin-top: 3em;
+  width: 1400px;
+  margin-left: 375px;
+}
+
+table {
+  width: 1200px;
+  height: 495px;
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+
+table, tr {
+  border: 2px solid #e6e6e6;
+}
+
+th, td {
+  text-align: left;
+  padding-left: 1.5em;
+}
+
+td {
+  color: gray;
+}
+
+th {
+  color: #666666;
+  background-color: #f2f2f2;
+}
